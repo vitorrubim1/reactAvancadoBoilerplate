@@ -1,0 +1,37 @@
+{
+    "env": {
+      "browser": true,
+      "es2020": true
+    },
+    "settings": {
+      "react": {
+        "version": "detect" //para verificar a versão do react
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 11,
+      "sourceType": "module"
+    },
+    "plugins": [
+        "react", 
+        "@typescript-eslint",
+        "react-hooks" //para verificar os hooks do react
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/prop-types": "off", //desligando a regra do prop-types, já que usarei TS
+      "react/react-in-jsx-scope": "off", //para não precisar ficar importando o react em todos arquivos, já que o next já faz isso por padrão
+      "@typescript-eslint/explicit-module-boundary-types": "off" //pra não ter que ficar typando tudo, o eslint consegue entender alguns retornos, por isso não obrigar typar tudo
+    }
+  }
