@@ -1,13 +1,7 @@
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 
-type Props = {
-  title: string;
-};
-
 export default function Home({ title = "Teste" }) {
-  const foo = "blaa";
-
   return (
     <div className={styles.container}>
       <Head>
