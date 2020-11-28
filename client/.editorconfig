@@ -1,7 +1,4 @@
-#editorconfig.org
-
-#para startar o projeto com as config básica 
-
+# editorconfig.org
 root = true
 
 [*]

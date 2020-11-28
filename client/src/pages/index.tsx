@@ -1,10 +1,13 @@
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 
-export default function Home({ title = "Teste" }) {
+type Props = {
+  title: string;
+};
 
+export default function Home({ title = "Teste" }) {
   const foo = "blaa";
-  
+
   return (
     <div className={styles.container}>
       <Head>
@@ -14,7 +17,7 @@ export default function Home({ title = "Teste" }) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        Hello <a href="https://nextjs.org">Front-end!</a>
+          Hello <a href="https://nextjs.org">Front-end!</a>
         </h1>
         <p className={styles.description}>
           Get started by editing{" "}
