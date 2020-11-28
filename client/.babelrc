@@ -1,0 +1,7 @@
+{
+  "presets": ["next/babel", "@babel/preset-typescript"]
+}
+/*
+  next/babel: serve pra que possamos escrever código de teste dentro do jest utilizando coisas novas do js e o babel faz a conversão(pré-compilação)
+  @babel/preset-typescript: pra que consiga entender o código ts
+*/
