@@ -15,3 +15,5 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 - [Husky](https://www.npmjs.com/package/husky) (Husky é uma ferramenta que nos permite facilmente pervisionar branchs Git e executar os scripts que queremos nesses estágios, para não fazer commits/push's com erros por exemplo).
 
 - [Lint-staged](https://www.npmjs.com/package/lint-staged) (Ouve os arquivos que foram adicionados para serem commitados e observados com o ESLint, e faz conjunto com o Husky para trativas de commits).
+
+- [Jest](https://jestjs.io/) (Jest é um framework de testes com foco na simplicidade e suporte para grandes aplicativos da web).
