@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> buscando algum heading h1, h2... 1`] = `
+<main>
+  <h1>
+    testando o componente
+  </h1>
+</main>
+`;
