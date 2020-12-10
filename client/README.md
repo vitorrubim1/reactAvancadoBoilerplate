@@ -2,11 +2,22 @@
 
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
+##### Linguagens e frameworks
+
+- [TypeScript](https://www.typescriptlang.org/) (TypeScript é um superconjunto de JavaScript que adiciona tipagem e alguns outros recursos a linguagem).
+
 - [React](https://reactjs.org) (Uma biblioteca JS para criar interfaces de página Web).
 
   - [NextJS](https://nextjs.org/) (Framework que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React).
 
-- [TypeScript](https://www.typescriptlang.org/) (TypeScript é um superconjunto de JavaScript que adiciona tipagem e alguns outros recursos a linguagem).
+- [Styled Components](https://styled-components.com/) [Styled components permite a utilização de JS in CSS para estilização de componentes]
+
+- [Jest](https://jestjs.io/) (Jest é um framework de testes com foco na simplicidade e suporte para grandes aplicativos da web).
+
+  - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (React Testing Library é uma solução muito leve para testar os componentes do React.)
+    - [Jest dom](https://github.com/testing-library/jest-dom) (É pra simplificar os testes, age em conjunto com React Testing Library, e valida se o componente tem estilo css, por exemplo, só ver na docs).
+
+##### Ferramentas
 
 - [ESLint](https://eslint.org/) (ESLint é uma ferramenta de análise de código estático para identificar padrões problemáticos encontrados no código JavaScript).
 
@@ -15,8 +26,3 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 - [Husky](https://www.npmjs.com/package/husky) (Husky é uma ferramenta que nos permite facilmente pervisionar branchs Git e executar os scripts que queremos nesses estágios, para não fazer commits/push's com erros por exemplo).
 
   - [Lint-staged](https://www.npmjs.com/package/lint-staged) (Ouve os arquivos que foram adicionados para serem commitados e observados com o ESLint, e faz conjunto com o Husky para trativas de commits).
-
-- [Jest](https://jestjs.io/) (Jest é um framework de testes com foco na simplicidade e suporte para grandes aplicativos da web).
-
-  - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (React Testing Library é uma solução muito leve para testar os componentes do React.)
-    - [Jest dom](https://github.com/testing-library/jest-dom) (É pra simplificar os testes, age em conjunto com React Testing Library, e valida se o componente tem estilo css, por exemplo, só ver na docs)

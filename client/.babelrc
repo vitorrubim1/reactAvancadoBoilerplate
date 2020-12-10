@@ -1,7 +1,17 @@
 {
+  "plugins":[
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true
+      }
+    ]
+  ],
   "presets": ["next/babel", "@babel/preset-typescript"]
 }
 /*
+  plugins: basicamente é o babel do styled-components, ativando o server side render pra true
+
   next/babel: serve pra que possamos escrever código de teste dentro do jest utilizando coisas novas do js e o babel faz a conversão(pré-compilação)
   @babel/preset-typescript: pra que consiga entender o código ts
 */
