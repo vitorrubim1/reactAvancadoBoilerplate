@@ -21,7 +21,7 @@ describe("<Main />", () => {
       getByRole: a tag que quero buscar, nesse caso "heading" é um h1, mas tem como buscar por id, class...
       */
     expect(
-      screen.getByRole("heading", { name: /testando o componente/i })
+      screen.getByRole("heading", { name: /React avançado/i })
     ).toBeInTheDocument();
 
     expect(container.firstChild).toMatchSnapshot();
@@ -32,5 +32,11 @@ describe("<Main />", () => {
       Se por acaso eu alterar o heading H1, para H2 o snapshot irá me avisar...
       se caso eu realmente queira fazer esta alteração é só apertar a letra u.
     */
+  });
+
+  it("should render the colors correctly", () => {
+    const { container } = render(<Main />);
+
+    expect(container.firstChild).toHaveStyle({ "background-color": "#06092b" });
   });
 });
