@@ -16,6 +16,8 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
   - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (React Testing Library é uma solução muito leve para testar os componentes do React.)
     - [Jest dom](https://github.com/testing-library/jest-dom) (É pra simplificar os testes, age em conjunto com React Testing Library, e valida se o componente tem estilo css, por exemplo, só ver na docs).
+  
+  - [Jest styled components]()(é um utilitário para testes css, incluindo uma experiência de testes em snapshots)
 
 ##### Ferramentas
 
