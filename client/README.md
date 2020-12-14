@@ -21,6 +21,9 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ##### Ferramentas
 
+- [StoryBook](https://storybook.js.org/) (É uma ferramenta para conseguirmos testar os componentes de UI de forma isolada)
+  - [Storybook Addon Knobs](https://github.com/storybookjs/storybook/tree/master/addons/knobs) (Permite que eu passe propriedades de estilo por exemplo pra dentro de um componente)
+
 - [ESLint](https://eslint.org/) (ESLint é uma ferramenta de análise de código estático para identificar padrões problemáticos encontrados no código JavaScript).
 
 - [Prettier](https://prettier.io/) (Prettier é um formatador de código opinativo com suporte para diversas linguagens).
