@@ -1,9 +1,15 @@
-// import { addDecorator } from "@storybook/react";
+import GlobalStyles from "../src/styles/global";
 
-// import withGlobalStyles from "./withGlobalStyles";
+/* 
+  Isso é um decorator (que serve para englobar qualquer coisa).
+  Nesse caso, é para englobar o estilo global em todas stories.
+*/
 
-// addDecorator(withGlobalStyles); //adicionei a preview a esse decorator
-
-export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" }
-};
+export const decorators = [
+  (Story) => (
+    <>
+      <GlobalStyles />
+      <Story />
+    </>
+  )
+];
