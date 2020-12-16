@@ -1,22 +1,26 @@
 import { Meta, Story } from "@storybook/react/types-6-0"; //Meta: metadados
-import { withKnobs, text } from "@storybook/addon-knobs";
 
 import Main from "./index";
 
 export default {
   title: "Main",
   component: Main,
-  decorators: [withKnobs] //um decorator, que recebe outro decorator
+  args: {
+    title: "Titulo default",
+    description: "Descrição default"
+  }
 } as Meta;
 
-export const Basic: Story = () => (
-  <Main
-    title={text("Title", "React Avançado")}
-    description={text(
-      "Description",
-      "React, Typescript, NextJS, Styled Components"
-    )}
-  />
+export const Basic: Story = (args) => (
+  <Main {...args} />
 ); /*
-  Aq eu passo através de uma prop, um text, mas pode ser number, boolean.. (primeiro argumento uma descrição do que é, e o segundo um valor default).
+Aq eu passo através de uma prop, um desestruturação de todos argumentos
 */
+
+Basic.args = {
+  // forma de sobreescrever o args padrão
+  title: "Title teste",
+  description: "description teste"
+};
+
+export const Default: Story = (args) => <Main {...args} />;
