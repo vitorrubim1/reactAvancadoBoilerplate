@@ -14,14 +14,18 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 - [Jest](https://jestjs.io/) (Jest é um framework de testes com foco na simplicidade e suporte para grandes aplicativos da web).
 
+- [PWA](https://github.com/shadowwalker/next-pwa) (PWA é um Progressive Web App, permite dar umas capacidades a mais na aplicação. Ex: funcionamento offline, notificação por push notification...).
+
   - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (React Testing Library é uma solução muito leve para testar os componentes do React.)
+
     - [Jest dom](https://github.com/testing-library/jest-dom) (É pra simplificar os testes, age em conjunto com React Testing Library, e valida se o componente tem estilo css, por exemplo, só ver na docs).
-  
+
   - [Jest styled components]()(é um utilitário para testes css, incluindo uma experiência de testes em snapshots)
 
 ##### Ferramentas
 
 - [StoryBook](https://storybook.js.org/) (É uma ferramenta para conseguirmos testar os componentes de UI de forma isolada)
+
   - [Storybook Addon Knobs](https://github.com/storybookjs/storybook/tree/master/addons/knobs) (Permite que eu passe propriedades de estilo por exemplo pra dentro de um componente)
 
 - [ESLint](https://eslint.org/) (ESLint é uma ferramenta de análise de código estático para identificar padrões problemáticos encontrados no código JavaScript).
